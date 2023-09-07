@@ -14,7 +14,7 @@
         "routes": [
             {
                 "src": "/(.*)",
-                "dest": "blog"
+                "dest": "python_heroku_task/wsgi.py"
             }
         ]
         
