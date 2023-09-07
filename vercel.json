@@ -10,7 +10,11 @@
             }
         }
     ],
-    "redirects": [
-        { "source": "/", "destination": "/blog", "permanent": true }
-      ]
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "python_heroku_task/wsgi.py"
+        }
+    ]
+    
 }
