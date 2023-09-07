@@ -11,7 +11,6 @@
         }
     ],
     "rewrites": [
-        { "source": "/", "destination": "/blog" },
-        { "source": "/(.*)", "dest": "python_heroku_task/wsgi.py" }
+        { "source": "/", "destination": "/blog" }
     ]
 }
