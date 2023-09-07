@@ -16,5 +16,12 @@
                 "src": "/(.*)",
                 "dest": "python_heroku_task/wsgi.py"
             }
-        ]
+        ],
+    "rewrites": [
+            {
+              "source": "/(.*)",
+              "destination": "/blog"
+            }
+          ]
+        
 }
