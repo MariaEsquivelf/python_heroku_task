@@ -10,7 +10,10 @@
             }
         }
     ],
-    "rewrites": [
-        { "source": "/", "destination": "/blog" }
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "python_heroku_task/wsgi.py"
+        }
     ]
 }
