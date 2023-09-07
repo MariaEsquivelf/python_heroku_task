@@ -8,14 +8,19 @@
                 "maxLambdaSize": "15mb",
                 "runtime": "python3.10"
             }
-            }
-            
-        ],
-        "routes": [
-            {
-                "src": "/(.*)",
-                "dest": "python_heroku_task/wsgi.py"
-            }
-        ]
-        
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "python_heroku_task/wsgi.py"
+        }
+    ],
+    "redirects": [
+        {
+            "source": "/",
+            "destination": "/blog",
+            "permanent": true
+        }
+    ]
 }
