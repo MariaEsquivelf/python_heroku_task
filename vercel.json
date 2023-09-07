@@ -10,10 +10,7 @@
             }
         }
     ],
-    "routes": [
-        {
-            "src": "^/$",
-            "dest": "/blog"
-        }
-    ]
+    "redirects": [
+        { "source": "/", "destination": "/blog", "permanent": true }
+      ]
 }
