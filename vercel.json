@@ -12,9 +12,12 @@
     ],
     "routes": [
         {
+            "src": "^/$",
+            "dest": "/blog"
+        },
+        {
             "src": "/(.*)",
             "dest": "python_heroku_task/wsgi.py"
         }
     ]
-    
 }
