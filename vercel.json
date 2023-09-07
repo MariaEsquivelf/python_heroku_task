@@ -15,12 +15,6 @@
             "src": "/(.*)",
             "dest": "python_heroku_task/wsgi.py"
         }
-    ],
-    "redirects": [
-        {
-            "source": "/",
-            "destination": "/blog",
-            "permanent": true
-        }
     ]
+    
 }
