@@ -9,12 +9,6 @@
                 "runtime": "python3.10"
             }
         }
-    ],
-    "routes": [
-        {
-            "src": "/(.*)",
-            "dest": "python_heroku_task/wsgi.py"
-        }
     ]
     
 }
