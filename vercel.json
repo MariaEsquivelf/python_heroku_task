@@ -9,6 +9,9 @@
                 "runtime": "python3.10"
             }
         }
+    ],
+    "rewrites": [
+        { "source": "/", "destination": "/blog" },
+        { "source": "/(.*)", "dest": "python_heroku_task/wsgi.py" }
     ]
-    
 }
